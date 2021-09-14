@@ -39,7 +39,7 @@
             }
             let div = document.createElement('div');
             let a = document.createElement('a');
-            var link = document.createTextNode('https://www.explainxkcd.com/wiki/index.php/'+currentComicNumber);
+            let link = document.createTextNode('https://www.explainxkcd.com/wiki/index.php/'+currentComicNumber);
             a.appendChild(link);
             a.setAttribute('href', 'https://www.explainxkcd.com/wiki/index.php/'+currentComicNumber);
             div.appendChild(a);
